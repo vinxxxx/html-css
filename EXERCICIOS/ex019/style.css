@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    background-color: aquamarine;
+    font: lighter 20px arial, verdana, serif;
+    text-align: justify;
+}
+
+h1 {
+        text-align: center;
+        color: rgb(236, 139, 20);
+        background-color: black;
+}
+
+h1#principal {
+    background-color: rgb(137, 54, 231);
+    color: white;
+}
+.basico {
+    background-color: blue;
+    text-align: center;
+}
+.avançado {
+    background-color: brown;
+    text-align: center;
+}
+.texto {
+    background-color: yellow;
+    text-align: justify;
+    
+}

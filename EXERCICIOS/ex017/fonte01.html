@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            font-size: 1.03em;
+            /* USAR px ou em!!!
+            Medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em (tamanho normal) 
+            */
+
+            /* algumas fontes tem diferentes tipos, que a deixam mais escura/grossa (negrito) ou mais fina. São as: 
+            - lighter -normal - bold - bolder*/
+
+        
+        }
+        h1 {
+            /* Shorthand font (comando menor) precisa estar na ordem:
+            -font-style -> font-weight -> font-size -> font-family
+            o comando seria:
+            font-family: Arial, sans-serif;
+            font-weight: 
+            font-size: 3em;
+            font-style: italic
+            */
+            font: italic bolder 3em arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <h2>Texto 1</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam neque laudantium quod provident exercitationem, odit, perferendis dignissimos optio facere laboriosam perspiciatis sunt dolor. Optio architecto voluptas veniam eius incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam praesentium corrupti illo architecto, maxime eius tempora numquam. Adipisci inventore cum, neque recusandae ipsa obcaecati animi, aperiam id saepe molestias error.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla illum tempore harum, quam odit non quasi ducimus officiis rem provident ipsam explicabo vel, repellendus asperiores! Similique possimus repellendus sint inventore.</p>
+    
+    <h2>Titulo 2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, tempore! Ea, odio. Voluptatibus quod sed soluta aperiam, fugiat non corporis consequatur aliquid accusantium? Aliquid iste nesciunt minima, similique repellat ratione!</p>
+</body>
+</html>
